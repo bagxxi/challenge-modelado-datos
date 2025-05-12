@@ -1,0 +1,5 @@
+pandas>=1.5,<2.0
+numpy>=2.0,<2.1          # requerido por pandas / seaborn / matplotlib
+matplotlib>=3.7,<3.10
+seaborn>=0.12,<0.13
+folium>=0.14,<0.15
