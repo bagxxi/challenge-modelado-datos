@@ -6,8 +6,9 @@ Se evaluaron ingresos, mix de categorías, reputación del cliente, costes logí
 ---
 
 ## 🗂️ Estructura del proyecto
+```
 .
-├── alura.ipynb # Notebook con el EDA y los gráficos
+├── alura.ipynb
 ├── mapa_interactivo_ventas.html
 ├── img/
 │ ├── ingresos_tienda.png
@@ -20,7 +21,7 @@ Se evaluaron ingresos, mix de categorías, reputación del cliente, costes logí
 │ └── lider_por_cuadrante.png
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## ⚡ Resumen ejecutivo
@@ -56,12 +57,12 @@ Tras analizar más de **8 000 registros** distribuidos en 4 ficheros CSV (uno po
 | `Tienda`                  | Etiqueta añadida durante la ingestión              |
 
 Los archivos originales se encuentran en el repositorio de Alura:
-
-> **https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science-latam/refs/heads/main/base-de-datos-challenge1-latam/tienda_1%20.csv**
-> **https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science-latam/refs/heads/main/base-de-datos-challenge1-latam/tienda_2.csv**
-> **https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science-latam/refs/heads/main/base-de-datos-challenge1-latam/tienda_3.csv**
-> **https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science-latam/refs/heads/main/base-de-datos-challenge1-latam/tienda_4.csv**
-
+```
+>  https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science-latam/refs/heads/main/base-de-datos-challenge1-latam/tienda_1%20.csv
+>  https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science-latam/refs/heads/main/base-de-datos-challenge1-latam/tienda_2.csv
+>  https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science-latam/refs/heads/main/base-de-datos-challenge1-latam/tienda_3.csv
+>  https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science-latam/refs/heads/main/base-de-datos-challenge1-latam/tienda_4.csv
+```
 
 ---
 
@@ -105,17 +106,16 @@ También es posible ejecutarlo directamente desde Google Colab.
 
 ## 📌 Requisitos técnicos
 
-    ```bash
     Python >= 3.9
     pandas
     numpy
     matplotlib
     seaborn
     folium          # para el mapa interactivo
-    ```
+
 # 📝 Conclusión
 El análisis integral demuestra que Tienda 4 ofrece el mejor equilibrio entre potencial de ingresos y satisfacción del cliente, con una cobertura geográfica que respalda la escalabilidad. Se recomienda al Sr. Juan negociar la incorporación de sus productos en esta tienda para maximizar la exposición y la rentabilidad.
 
 # 🤝 Créditos
-Gabriel Balbontín U. – Python Developer
-Datos suministrados por Alura – Alura ONE Challenge / Data Science
+#### Gabriel Balbontín U. – Python Developer.
+#### Datos suministrados por Alura – Alura ONE Challenge / Data Science
